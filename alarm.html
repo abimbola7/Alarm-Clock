@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/alarm.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button class="btn btn-primary" onclick="playy()">Click</button> -->
+    <center>
+
+        <div class="body text-light">
+            <div class="text-center" style="padding-bottom: 20px;" id="clock"></div>
+            <div id="clock1" class="text-dark"></div>
+        <div class="top"></div>
+
+        <div class="pb-4 text-dark mt-5">
+            <input type="number" name="" id="hrs" min="0" max="23" placeholder="Hrs">
+            <input type="number" name="" id="mins" min="0" max="59" placeholder="Mins">
+
+            <div class="mt-4">
+                <input type="text" id="reminder" placeholder="Set Reminder" onblur="display()">
+                <button class="btn btn-success btn-sm mt-2" onclick="set()">Set Alarm</button>
+            </div>
+            
+            <h6 id="h1" class="mt-2"></h6>
+            <div class="">
+                <p id="p">
+                    
+                </p>
+            </div>
+        </div> 
+
+
+        <!-- <input type="datetime-local" name="" id="timedate">
+        <button class="btn btn-success btn-sm" onclick="setimer()">Set</button><br>
+        <h1 id="timeoutputs" class="text-dark"></h1> -->
+    </center>
+</body>
+<script src="./js/alarm.js"></script>
+</html>
